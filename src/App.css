@@ -1,0 +1,17 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App button {
+  height: 50px;
+  width: 305px;
+  background-color: coral;
+  cursor: pointer;
+  border-radius: 5px;
+}
