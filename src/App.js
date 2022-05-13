@@ -1,5 +1,5 @@
 import './App.css';
-import img from './assets/Negao_da_picona.jpg'
+import img from './assets/img.png'
 import { useState } from 'react'
 
 function App() {
@@ -12,13 +12,13 @@ function App() {
 
   return (
     <div className="App">
-      {!imagem && <button onClick={() => click()}>CLique aqui</button>}
+      {!imagem && <button onClick={() => click()}>Clique aqui</button>}
 
       <div>
         {imagem && <img src={img} alt='imagem' />}
       </div>
 
-      {imagem && <h2>Mama aqui viado</h2>}
+      {imagem && <h2>Te amo muito!</h2>}
     </div>
   );
 }
