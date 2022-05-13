@@ -1,5 +1,5 @@
 import './App.css';
-import img from './assets/img.png'
+import img from './assets/download.jfif'
 import { useState } from 'react'
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         {imagem && <img src={img} alt='imagem' />}
       </div>
 
-      {imagem && <h2>Te amo muito!</h2>}
+      {imagem && <h2>Mama aqui viado!</h2>}
     </div>
   );
 }
